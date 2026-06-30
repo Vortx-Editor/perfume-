@@ -85,8 +85,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const data = new FormData(form);
       const name = data.get('fullName')?.trim();
 
-      // رسالة نجاح مسبوكة بالعربية تواجه العميل
-      formNote.textContent = `تسلم يا ${name || 'يا خويي'} — تم حجز طلبك بنجاح! بـ نتصل بك طيارة لتأكيد الشحن طال عمرك.`;
+      // تغيير الرسالة إلى نص تجاري رسمي واحترافي مية بالمية
+      formNote.textContent = `شكرًا لك، ${name || 'عميلنا العزيز'} — تم استلام طلبك وحجز العبوة بنجاح. سنتواصل معك قريبًا لتأكيد تفاصيل الشحن والتوصيل.`;
       form.reset();
 
       const qty = document.getElementById('quantity');
