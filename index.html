@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>عطور VORTX | فخامة ملكية تسبق حضورك</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- استدعاء خط Cairo الفخم للعربية -->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ بار التنقل (NAV) ============ -->
+<header class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-mark">VORTX</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#narrative">الحرفة والاتقان</a>
+      <a href="#notes">المكونات العطرية</a>
+      <a href="#offer">العرض الحصري</a>
+      <a href="#order">اطلب الآن</a>
+    </nav>
+    <a href="#order" class="nav-cta">اطلب الحين</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ القسم الأول — الواجهة (HERO) ============ -->
+<section class="hero" id="hero">
+  <div class="hero-vignette"></div>
+  <div class="scent-trail" aria-hidden="true">
+    <svg viewBox="0 0 1600 900" preserveAspectRatio="none">
+      <path class="trail-path" d="M -100,650 C 200,500 350,750 600,600 C 850,450 1000,700 1300,500 C 1450,400 1500,420 1700,300" />
+    </svg>
+  </div>
+
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="eyebrow-line"></span>دار العطور الفاخرة</p>
+      <h1 class="hero-title">عطور VORTX <br><span class="amp">فخامة ملكية</span><br>تسبق حضورك</h1>
+      <p class="hero-sub">عطور مقطرة من نتاج العود الفاخر، ومسك منتصف الليل، والورد الدمشقي — صُنعت خصيصاً لمن يثبت وجوده في المكان قبل أن يتكلم.</p>
+      <div class="hero-actions">
+        <a href="#notes" class="btn-glass">
+          <span>اكتشف المجموعة الملكية</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13 8H3M3 8L7 4M3 8L7 12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#order" class="btn-text">الدفع عند الاستلام طيارة ←</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>48ساعة</strong><span>شحن سريع للمنطقة</span></div>
+        <div><strong>100%</strong><span>عود طبيعي أصلي</span></div>
+        <div><strong>4.9★</strong><span>تقييم الكيّافة</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="bottle-glow"></div>
+      <svg class="bottle" viewBox="0 0 320 560" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#3a2418" stop-opacity="0.55"/>
+            <stop offset="50%" stop-color="#1c100a" stop-opacity="0.85"/>
+            <stop offset="100%" stop-color="#0a0604" stop-opacity="0.95"/>
+          </linearGradient>
+          <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#e8c389"/>
+            <stop offset="100%" stop-color="#a87b46"/>
+          </linearGradient>
+          <linearGradient id="capGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#f1d9ad"/>
+            <stop offset="50%" stop-color="#c59b6d"/>
+            <stop offset="100%" stop-color="#8a6638"/>
+          </linearGradient>
+          <radialGradient id="sheen" cx="30%" cy="20%" r="70%">
+            <stop offset="0%" stop-color="#fff" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <rect x="130" y="20" width="60" height="46" rx="6" fill="url(#capGrad)"/>
+        <rect x="138" y="10" width="44" height="18" rx="4" fill="url(#capGrad)"/>
+        <rect x="148" y="60" width="24" height="34" fill="url(#glass)" stroke="#c59b6d" stroke-opacity="0.35"/>
+        <path d="M 90 94 L 230 94 C 250 94 264 116 264 150 L 264 470 C 264 510 240 540 200 540 L 120 540 C 80 540 56 510 56 470 L 56 150 C 56 116 70 94 90 94 Z" fill="url(#glass)" stroke="#c59b6d" stroke-opacity="0.4" stroke-width="1.5"/>
+        <clipPath id="bottleClip">
+          <path d="M 90 94 L 230 94 C 250 94 264 116 264 150 L 264 470 C 264 510 240 540 200 540 L 120 540 C 80 540 56 510 56 470 L 56 150 C 56 116 70 94 90 94 Z"/>
+        </clipPath>
+        <rect class="liquid-level" x="56" y="220" width="208" height="320" fill="url(#liquid)" opacity="0.85" clip-path="url(#bottleClip)"/>
+        <line x1="130" y1="94" x2="130" y2="540" stroke="#fbf8f3" stroke-opacity="0.06"/>
+        <line x1="190" y1="94" x2="190" y2="540" stroke="#fbf8f3" stroke-opacity="0.06"/>
+        <path d="M 90 94 L 230 94 C 250 94 264 116 264 150 L 264 470 C 264 510 240 540 200 540 L 120 540 C 80 540 56 510 56 470 L 56 150 C 56 116 70 94 90 94 Z" fill="url(#sheen)"/>
+        <rect x="98" y="280" width="124" height="84" rx="2" fill="#0a0604" fill-opacity="0.55" stroke="#c59b6d" stroke-opacity="0.5" stroke-width="0.75"/>
+        <text x="160" y="316" text-anchor="middle" fill="#c59b6d" font-family="Cairo, sans-serif" font-size="15" letter-spacing="4" font-weight="600">VORTX</text>
+        <line x1="118" y1="328" x2="202" y2="328" stroke="#c59b6d" stroke-opacity="0.6"/>
+        <text x="160" y="346" text-anchor="middle" fill="#fbf8f3" font-family="Cairo, sans-serif" font-size="8" letter-spacing="2" opacity="0.7">EAU DE PARFUM</text>
+      </svg>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"><span></span></div>
+</section>
+
+<!-- ============ القسم الثاني — قصة الحرفة (NARRATIVE) ============ -->
+<section class="narrative" id="narrative">
+  <div class="trail-divider"><svg viewBox="0 0 1600 80" preserveAspectRatio="none"><path d="M -50,40 C 300,10 500,70 800,40 C 1100,10 1300,70 1650,40" /></svg></div>
+  <div class="narrative-inner">
+    <div class="narrative-label">
+      <p class="eyebrow"><span class="eyebrow-line"></span>الحرفة والاتقان</p>
+      <h2>السر الكامن<br>وراء قطرات<br>العطر</h2>
+    </div>
+    <div class="narrative-copy">
+      <p class="lead">كل زجاجة عطر من VORTX تبدأ حكايتها قبل صبّها بسنوات طويلة — من أعماق غابات العود العتيقة ونقاء بتلات الورد المقطوفة في ساعات الفجر الأولى.</p>
+      <p>يسافر خبراؤنا لانتقاء خشب الأجار المعتق، وبتلات الورد الدمشقي النقي، وراتنجات العنبر الفاخرة، مستبعدين أي دفعة لا ترقى لملوكية الهوية. ما ينجو من هذا الفرز يُمزج بعناية فائقة في خطوط إنتاج محدودة وحصرية.</p>
+      <p>والنتيجة هي هرم عطري يتكشف في ثلاثة فصول بصرية وحسية: نوتة عليا تعلن عن حضورك، وقلب عطر يعلق في الذاكرة والأقمشة، وقاعدة ممتدة تدوم طويلاً.</p>
+      <div class="narrative-marks">
+        <div class="mark"><span class="mark-num">XII</span><span class="mark-label">عاماً من الخبرة والعلاقات</span></div>
+        <div class="mark"><span class="mark-num">7g</span><span class="mark-label">عود نقي لكل عبوة 50 مل</span></div>
+        <div class="mark"><span class="mark-num">∞</span><span class="mark-label">دفعات تم رفضها لعدم كفاءتها</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ القسم الثالث — المكونات العطرية (NOTES) ============ -->
+<section class="notes" id="notes">
+  <div class="section-head center">
+    <p class="eyebrow center"><span class="eyebrow-line"></span>التركيبة الملكية</p>
+    <h2>النوتات العطرية الفاخرة</h2>
+    <p class="section-sub">ثلاثة أبعاد عطرية مذهلة تتكشف وتتزن على مدار يومك.</p>
+  </div>
+
+  <div class="notes-grid">
+    <article class="note-card">
+      <div class="note-icon">
+        <svg viewBox="0 0 60 60"><path d="M30 6 C20 18 14 28 14 38 C14 47 21 54 30 54 C39 54 46 47 46 38 C46 28 40 18 30 6Z" fill="none" stroke="#c59b6d" stroke-width="1.4"/><path d="M30 20 C25 28 22 33 22 39 C22 44 25 48 30 48" fill="none" stroke="#c59b6d" stroke-width="1" opacity="0.5"/></svg>
+      </div>
+      <span class="note-tag">قاعدة العطر</span>
+      <h3>العود الملكي (Royal Oud)</h3>
+      <p>راتنج مدخن كثيف مستخلص من خشب الأجار المعتق — الركيزة الأساسية التي ترسي كل توليفة من عطور VORTX في عراقة وفخامة واضحة مية بالمية.</p>
+    </article>
+
+    <article class="note-card">
+      <div class="note-icon">
+        <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="22" fill="none" stroke="#c59b6d" stroke-width="1.4"/><circle cx="30" cy="30" r="13" fill="none" stroke="#c59b6d" stroke-width="1" opacity="0.5"/><circle cx="30" cy="30" r="4" fill="#c59b6d" opacity="0.6"/></svg>
+      </div>
+      <span class="note-tag">قلب العطر</span>
+      <h3>المسك الأسود (Black Musk)</h3>
+      <p>دفء عميق وغامض يطفو على السطح بعد حلول المساء — ساحر وقريب من الجلد، مصمم ليدوم ويوجه في المناسبات الكبرى واللقاءات الليلية الفخمة.</p>
+    </article>
+
+    <article class="note-card">
+      <div class="note-icon">
+        <svg viewBox="0 0 60 60"><path d="M30 12 C35 18 42 20 42 28 C42 36 36 42 30 42 C24 42 18 36 18 28 C18 20 25 18 30 12Z" fill="none" stroke="#c59b6d" stroke-width="1.4"/><path d="M30 42 L30 50 M24 50 L36 50" stroke="#c59b6d" stroke-width="1" opacity="0.5"/></svg>
+      </div>
+      <span class="note-tag">قمة العطر</span>
+      <h3>الورد الدمشقي الفاخر</h3>
+      <p>افتتاحية زهرية منعشة مستخلصة من بتلات الورد المقطوف عند الفجر، لتعطي إشراقة تأخذ الأنفاس وتمهد الطريق للمكونات الأكثر عمقاً وثباتاً.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ القسم الرابع — العرض التسويقي (OFFER) ============ -->
+<section class="offer" id="offer">
+  <div class="offer-frame">
+    <p class="eyebrow center"><span class="eyebrow-line"></span>عرض لفترة محدودة</p>
+    <h2 class="offer-title">اشتري قطعتين، واحصل على قطعتين مجاناً<br><span>+ شحن مجاني وسريع لكافة مناطق المملكة والخليج</span></h2>
+    <p class="offer-sub">كمية مخصصة ومحدودة لهذا الموسم، متوفرة حتى نفاد الكمية. لا حاجة لرمز ترويجي — يتم تطبيق الخصم تلقائياً عند طلبك الحين.</p>
+
+    <div class="countdown" id="countdown">
+      <div class="countdown-unit"><span class="countdown-num" id="cd-days">02</span><span class="countdown-label">أيام</span></div>
+      <div class="countdown-sep">:</div>
+      <div class="countdown-unit"><span class="countdown-num" id="cd-hours">14</span><span class="countdown-label">ساعة</span></div>
+      <div class="countdown-sep">:</div>
+      <div class="countdown-unit"><span class="countdown-num" id="cd-mins">36</span><span class="countdown-label">دقيقة</span></div>
+      <div class="countdown-sep">:</div>
+      <div class="countdown-unit"><span class="countdown-num" id="cd-secs">09</span><span class="countdown-label">ثانية</span></div>
+    </div>
+
+    <a href="#order" class="btn-solid">اغتنم العرض الفخم الحين</a>
+  </div>
+</section>
+
+<!-- ============ القسم الخامس — استمارة الطلب السريع (ORDER FORM) ============ -->
+<section class="order" id="order">
+  <div class="order-inner">
+    <div class="section-head center">
+      <p class="eyebrow center"><span class="eyebrow-line"></span>طلب سريع فرعي</p>
+      <h2>احجز عبوتك الملكية الفاخرة</h2>
+      <p class="section-sub">الدفع عند الاستلام مية بالمية — لا تحتاج لإدخال أي بيانات بنكية الحين.</p>
+    </div>
+
+    <form class="order-form" id="orderForm">
+      <div class="form-row">
+        <label for="fullName">الاسم بالكامل</label>
+        <input type="text" id="fullName" name="fullName" placeholder="اكتب اسمك الثلاثي الكريم" required>
+      </div>
+      <div class="form-row">
+        <label for="phone">رقم الجوال</label>
+        <input type="tel" id="phone" name="phone" placeholder="+966 5x xxx xxxx" required>
+      </div>
+      <div class="form-row">
+        <label for="fragrance">اختر العطر الفخم</label>
+        <select id="fragrance" name="fragrance" required>
+          <option value="" disabled selected>اضغط لتحديد نوع العطر</option>
+          <option value="royal-oud">العود الملكي الفاخر — 50 مل</option>
+          <option value="black-musk">المسك الأسود الفاخر — 50 مل</option>
+          <option value="damascus-rose">الورد الدمشقي النقي — 50 مل</option>
+          <option value="vortx-trio">مجموعة VORTX الثلاثية المتكاملة — 3 عبوات × 30 مل</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="quantity">الكمية المطلوبة</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1" required>
+      </div>
+      <button type="submit" class="btn-solid btn-submit">
+        <span>تأكيد الطلب الحين والدفع عند الاستلام</span>
+      </button>
+      <p class="form-note" id="formNote" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ القسم السادس — الفوتر الفخم (FOOTER) ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a href="#hero" class="nav-mark">VORTX</a>
+    <div class="footer-socials">
+      <a href="#" aria-label="Twitter" class="social-icon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M22 5.9c-.7.3-1.5.6-2.3.7.8-.5 1.5-1.3 1.8-2.3-.8.5-1.6.8-2.5 1A4 4 0 0 0 11.9 9c0 .3 0 .6.1.9-3.3-.2-6.2-1.7-8.2-4.2-.3.6-.5 1.3-.5 2 0 1.4.7 2.6 1.8 3.3-.6 0-1.2-.2-1.8-.5v.1c0 1.9 1.4 3.5 3.2 3.9-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2 2.7 3.8 2.8A8 8 0 0 1 2 19.5 11.3 11.3 0 0 0 8.3 21c7.5 0 11.6-6.2 11.6-11.6v-.5c.8-.6 1.5-1.3 2.1-2.1Z" fill="currentColor"/></svg>
+      </a>
+      <a href="#" aria-label="Instagram" class="social-icon">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.5"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></svg>
+      </a>
+      <a href="#" aria-label="TikTok" class="social-icon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M14 3v10.6a2.9 2.9 0 1 1-2.3-2.85V8.4A5.2 5.2 0 1 0 16.5 13V8.9c.95.7 2.1 1.1 3.5 1.1V7.7c-1.9 0-3.4-1.1-4-2.7-.2-.5-.3-1.3-.3-2H14Z" fill="currentColor"/></svg>
+      </a>
+    </div>
+    <p class="footer-copy">جميع الحقوق محفوظة © 2026 لبراند عطور VORTX.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
